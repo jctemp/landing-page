@@ -10,14 +10,14 @@ body {
 }
 
 .wrapper {
+    margin: auto;
     width: 850px;
 }
 
 header,
 section {
     display: flex;
-    justify-content: center;
-}
+    }
 
 button {
     color: #ffffff;
