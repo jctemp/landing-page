@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
-    border: 1px solid rebeccapurple;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,12 +13,27 @@ body {
     width: 850px;
 }
 
-header, section {
+header,
+section {
     display: flex;
     justify-content: center;
 }
 
+button {
+    color: #ffffff;
+    background-color: #3b82f6;
+    padding: 9px 36px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    border-style: none;
+}
+
 /* HEADER SECTION */
+
+header {
+    background-color: #1f2937;
+}
 
 header .wrapper {
     padding: 18px;
@@ -30,7 +44,8 @@ header .wrapper {
 
 h1 {
     margin: 0;
-    font-size: 48px;
+    color: #f1f2f2;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -44,13 +59,18 @@ h1 {
 
 .nav-link {
     text-decoration: none;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
 /* MAIN TITLE SECTION */
 
+section.title {
+    background-color: #1f2937;
+}
+
 section.title .wrapper {
-    padding: 48px 18px;
+    padding: 96px 0;
     display: flex;
     justify-content: space-between;
     gap: 36px;
@@ -59,13 +79,15 @@ section.title .wrapper {
 section.title h2 {
     margin: 0;
     padding: 0;
+    color: #f9fafb;
     font-size: 48px;
     font-weight: 900;
 }
 
 section.title p {
-    margin: 0;
+    margin: 0 0 18px 0;
     padding: 0;
+    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -74,8 +96,8 @@ section.title p {
 }
 
 .title .image {
-    color: white;
-    background-color: gray;
+    color: #e5e7eb;
+    background-color: #6d747d;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -84,8 +106,13 @@ section.title p {
 
 /* MAIN INFORMATION SECTION */
 
+section.information {
+    background-color: #ffffff;
+}
+
 section.information .wrapper {
-    padding: 48px 18px;
+    padding: 96px 0;
+    width: 790px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +122,7 @@ section.information h2 {
     margin: 0 0 36px 0;
     font-size: 36px;
     font-weight: 900;
+    color: #1f2937;
 }
 
 section.information p {
@@ -114,15 +142,20 @@ section.information p {
 .information .image {
     border-radius: 18px;
     border-style: solid;
-    border-color: black;
+    border-color: #3b82f6;
     border-width: 4px;
     aspect-ratio: 1/1;
 }
 
 /* MAIN QUOTE SECTION */
 
+section.quote {
+    background-color: #e5e7eb;
+}
+
 section.quote .wrapper {
-    padding: 48px 18px;
+    padding: 96px 0;
+    width: 790px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,16 +181,28 @@ section.quote figcaption {
 
 /* MAIN ACTION SECTION */
 
+section.action {
+    background-color: #ffffff;
+}
+
 section.action .wrapper {
-    padding: 48px 18px;
+    padding: 96px 0;
 }
 
 section.action .container {
     padding: 36px 0;
     width: auto;
+    color: #ffffff;
+    background-color: #3b82f6;
+    border-radius: 9px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+section.action button {
+    border-style: solid;
+    border-color: #ffffff;
 }
 
 section.action h2 {
@@ -169,14 +214,16 @@ section.action p {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    font-weight: 300;
 }
-
 
 /* FOOTER SECTION */
 
-footer  {
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 36px;
 }
