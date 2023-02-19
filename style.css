@@ -137,6 +137,32 @@ section.quote figcaption {
     font-size: 24px;
 }
 
+/* MAIN ACTION SECTION */
+
+section.action {
+    padding: 48px 18px;
+}
+
+section.action .container {
+    padding: 36px 0;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.action h2 {
+    margin: 0;
+    padding: 0;
+}
+
+section.action p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
 /* FOOTER SECTION */
 
 footer {
