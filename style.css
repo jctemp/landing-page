@@ -10,10 +10,10 @@ body {
 /* HEADER SECTION */
 
 header {
+    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
 /* MAIN TITLE SECTION */
 
 section.title {
-    padding: 18px;
+    padding: 48px 18px;
     display: flex;
     justify-content: space-between;
     gap: 36px;
@@ -61,13 +61,49 @@ section.title p {
     width: 50%;
 }
 
-.image {
+.title .image {
     color: white;
     background-color: gray;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* MAIN INFORMATION SECTION */
+
+section.information {
+    padding: 48px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.information h2 {
+    margin: 0 0 36px 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+section.information p {
+    margin: 9px 0 0 0;
+}
+
+.galary {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 25%;
+}
+
+.information .image {
+    border-radius: 18px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    aspect-ratio: 1/1;
 }
 
 /* FOOTER SECTION */
