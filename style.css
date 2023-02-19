@@ -1,3 +1,33 @@
 * {
-    border: 1px solid rgb(255, 99, 99);
+    border: 1px solid rebeccapurple;
+}
+
+html, body {
+    margin: 0;
+}
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.nav-primary {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
 }
