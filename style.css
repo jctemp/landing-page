@@ -2,20 +2,16 @@
     border: 1px solid rebeccapurple;
 }
 
-html, body {
+html,
+body {
     margin: 0;
 }
 
-header  {
+/* HEADER SECTION */
+
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 18px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
     align-items: center;
     padding: 18px;
 }
@@ -37,4 +33,48 @@ h1 {
 .nav-link {
     text-decoration: none;
     font-size: 18px;
+}
+
+/* MAIN TITLE SECTION */
+
+section.title {
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+section.title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+section.title p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 50%;
+}
+
+.image {
+    color: white;
+    background-color: gray;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
 }
