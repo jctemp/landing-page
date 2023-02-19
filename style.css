@@ -10,9 +10,18 @@ body {
     margin: 0;
 }
 
+.wrapper {
+    width: 850px;
+}
+
+header, section {
+    display: flex;
+    justify-content: center;
+}
+
 /* HEADER SECTION */
 
-header {
+header .wrapper {
     padding: 18px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +49,7 @@ h1 {
 
 /* MAIN TITLE SECTION */
 
-section.title {
+section.title .wrapper {
     padding: 48px 18px;
     display: flex;
     justify-content: space-between;
@@ -75,7 +84,7 @@ section.title p {
 
 /* MAIN INFORMATION SECTION */
 
-section.information {
+section.information .wrapper {
     padding: 48px 18px;
     display: flex;
     flex-direction: column;
@@ -112,7 +121,7 @@ section.information p {
 
 /* MAIN QUOTE SECTION */
 
-section.quote {
+section.quote .wrapper {
     padding: 48px 18px;
     display: flex;
     flex-direction: column;
@@ -139,7 +148,7 @@ section.quote figcaption {
 
 /* MAIN ACTION SECTION */
 
-section.action {
+section.action .wrapper {
     padding: 48px 18px;
 }
 
@@ -165,7 +174,7 @@ section.action p {
 
 /* FOOTER SECTION */
 
-footer {
+footer  {
     display: flex;
     justify-content: center;
     align-items: center;
